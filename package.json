@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev" : "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,11 @@
   },
   "homepage": "https://github.com/UraSerdyuk/server-catch-time#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
     "config": "^3.3.6",
     "express": "^4.17.1",
+    "express-validator": "^6.12.0",
     "mongoose": "^5.12.14",
     "nodemon": "^2.0.7"
   }
