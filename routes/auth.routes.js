@@ -53,7 +53,6 @@ router.post('/login', async (req, res) => {
 
     const isPassValid = bcrypt.compareSync(password,user.password)
 
-
     if(!isPassValid) {
       return  res.status(400).json({message : 'Invalid Pass'})
     }
