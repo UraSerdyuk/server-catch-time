@@ -28,7 +28,8 @@ router.post('/registration', [
     const hashPassword = await bcrypt.hash(password, 8)
     const user = new User({
       email,
-      password: hashPassword
+      password: hashPassword,
+      score:0
     });
     await user.save()
 
@@ -63,7 +64,8 @@ router.post('/login', async (req, res) => {
       token,
       user:{
         id:user.id,
-        email:user.email
+        email:user.email,
+        score: user.score
       }
     })
 
