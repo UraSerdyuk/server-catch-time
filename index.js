@@ -13,7 +13,9 @@ app.use(corsMiddleware);
 app.use(express.json())
 app.use("/api/auth", authRouter);
 app.use("/api/game", gameRouter);
-
+app.get("/", (req, res) => {
+  res.status(300).json({message: `User`})
+});
 const start = async () => {
   try {
     await mongoose.connect(config.get('dbUrl'), {
