@@ -36,7 +36,7 @@ router.post('/registration', [
     return res.json({message: 'User was created'})
 
   } catch (e) {
-    console.log(E)
+    console.log('/registration',e)
     res.send({message: 'Server error'})
   }
 })
@@ -70,9 +70,31 @@ router.post('/login', async (req, res) => {
     })
 
   } catch (e) {
-    console.log(e)
+    console.log('/login',e)
     res.send({message: 'Server error'})
   }
 })
+
+router.post('/token/refresh',async (req,res)=>{
+  try{
+    const {token}  = req.body;
+    const userData = await jwt.verify(token,config.get('secretKey'));
+
+    const user = await User.findById(userData.id);
+
+    return  res.json({
+      token,
+      user:{
+        id:user.id,
+        email:user.email,
+        score: user.score
+      }
+    });
+
+  }catch (e) {
+    console.log('/token/refresh',e)
+    return  res.status(400).json({message : 'Token expired, try to relogin'})
+  }
+});
 
 module.exports = router
