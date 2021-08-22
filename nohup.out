@@ -1,0 +1,423 @@
+
+> server-catch-time@1.0.0 start /root/server-catch-time
+>  node index.js &  cd .. && cd wedding-pictures-mern && npm run start
+
+
+> wedding-pictures@1.0.0 start /root/wedding-pictures-mern
+> node app.js
+
+connect to database
+Server is started on port №9988
+Server started on port : 8182
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! wedding-pictures@1.0.0 start: `node app.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the wedding-pictures@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2021-08-22T03_05_52_374Z-debug.log
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! server-catch-time@1.0.0 start: ` node index.js &  cd .. && cd wedding-pictures-mern && npm run start`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the server-catch-time@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2021-08-22T03_05_52_388Z-debug.log
+
+> server-catch-time@1.0.0 start /root/server-catch-time
+>  node index.js &  cd .. && cd wedding-pictures-mern && npm run start
+
+
+> wedding-pictures@1.0.0 start /root/wedding-pictures-mern
+> node app.js
+
+connect to database
+Server is started on port №9988
+Server started on port : 8182
+URIError: Failed to decode param '/%80../%80../%80../%80../%80../%80../windows/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/root/server-catch-time/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/root/server-catch-time/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/root/server-catch-time/node_modules/express/lib/router/index.js:574:18)
+    at next (/root/server-catch-time/node_modules/express/lib/router/index.js:220:15)
+    at SendStream.error (/root/server-catch-time/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:198:13)
+    at SendStream.error (/root/server-catch-time/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/root/server-catch-time/node_modules/send/index.js:520:10)
+    at serveStatic (/root/server-catch-time/node_modules/serve-static/index.js:125:12)
+    at Layer.handle [as handle_request] (/root/server-catch-time/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/root/server-catch-time/node_modules/express/lib/router/index.js:317:13)
+    at /root/server-catch-time/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/server-catch-time/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/server-catch-time/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/root/server-catch-time/node_modules/serve-static/index.js:121:7)
+URIError: Failed to decode param '/%80../%80../%80../%80../%80../%80../winnt/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/root/server-catch-time/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/root/server-catch-time/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/root/server-catch-time/node_modules/express/lib/router/index.js:574:18)
+    at next (/root/server-catch-time/node_modules/express/lib/router/index.js:220:15)
+    at SendStream.error (/root/server-catch-time/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:198:13)
+    at SendStream.error (/root/server-catch-time/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/root/server-catch-time/node_modules/send/index.js:520:10)
+    at serveStatic (/root/server-catch-time/node_modules/serve-static/index.js:125:12)
+    at Layer.handle [as handle_request] (/root/server-catch-time/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/root/server-catch-time/node_modules/express/lib/router/index.js:317:13)
+    at /root/server-catch-time/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/server-catch-time/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/server-catch-time/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/root/server-catch-time/node_modules/serve-static/index.js:121:7)
+URIError: Failed to decode param '/%c0.%c0./%c0.%c0./%c0.%c0./%c0.%c0./%c0.%c0./windows/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/root/server-catch-time/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/root/server-catch-time/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/root/server-catch-time/node_modules/express/lib/router/index.js:574:18)
+    at next (/root/server-catch-time/node_modules/express/lib/router/index.js:220:15)
+    at SendStream.error (/root/server-catch-time/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:198:13)
+    at SendStream.error (/root/server-catch-time/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/root/server-catch-time/node_modules/send/index.js:520:10)
+    at serveStatic (/root/server-catch-time/node_modules/serve-static/index.js:125:12)
+    at Layer.handle [as handle_request] (/root/server-catch-time/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/root/server-catch-time/node_modules/express/lib/router/index.js:317:13)
+    at /root/server-catch-time/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/server-catch-time/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/server-catch-time/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/root/server-catch-time/node_modules/serve-static/index.js:121:7)
+URIError: Failed to decode param '/%c0.%c0./%c0.%c0./%c0.%c0./%c0.%c0./%c0.%c0./winnt/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/root/server-catch-time/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/root/server-catch-time/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/root/server-catch-time/node_modules/express/lib/router/index.js:574:18)
+    at next (/root/server-catch-time/node_modules/express/lib/router/index.js:220:15)
+    at SendStream.error (/root/server-catch-time/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:198:13)
+    at SendStream.error (/root/server-catch-time/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/root/server-catch-time/node_modules/send/index.js:520:10)
+    at serveStatic (/root/server-catch-time/node_modules/serve-static/index.js:125:12)
+    at Layer.handle [as handle_request] (/root/server-catch-time/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/root/server-catch-time/node_modules/express/lib/router/index.js:317:13)
+    at /root/server-catch-time/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/server-catch-time/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/server-catch-time/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/root/server-catch-time/node_modules/serve-static/index.js:121:7)
+URIError: Failed to decode param '/%c0%2e%c0%2e/%c0%2e%c0%2e/%c0%2e%c0%2e/%c0%2e%c0%2e/windows/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/root/server-catch-time/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/root/server-catch-time/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/root/server-catch-time/node_modules/express/lib/router/index.js:574:18)
+    at next (/root/server-catch-time/node_modules/express/lib/router/index.js:220:15)
+    at SendStream.error (/root/server-catch-time/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:198:13)
+    at SendStream.error (/root/server-catch-time/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/root/server-catch-time/node_modules/send/index.js:520:10)
+    at serveStatic (/root/server-catch-time/node_modules/serve-static/index.js:125:12)
+    at Layer.handle [as handle_request] (/root/server-catch-time/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/root/server-catch-time/node_modules/express/lib/router/index.js:317:13)
+    at /root/server-catch-time/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/server-catch-time/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/server-catch-time/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/root/server-catch-time/node_modules/serve-static/index.js:121:7)
+URIError: Failed to decode param '/%c0%2e%c0%2e/%c0%2e%c0%2e/%c0%2e%c0%2e/%c0%2e%c0%2e/winnt/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/root/server-catch-time/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/root/server-catch-time/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/root/server-catch-time/node_modules/express/lib/router/index.js:574:18)
+    at next (/root/server-catch-time/node_modules/express/lib/router/index.js:220:15)
+    at SendStream.error (/root/server-catch-time/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:198:13)
+    at SendStream.error (/root/server-catch-time/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/root/server-catch-time/node_modules/send/index.js:520:10)
+    at serveStatic (/root/server-catch-time/node_modules/serve-static/index.js:125:12)
+    at Layer.handle [as handle_request] (/root/server-catch-time/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/root/server-catch-time/node_modules/express/lib/router/index.js:317:13)
+    at /root/server-catch-time/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/server-catch-time/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/server-catch-time/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/root/server-catch-time/node_modules/serve-static/index.js:121:7)
+URIError: Failed to decode param '/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/windows/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/root/server-catch-time/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/root/server-catch-time/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/root/server-catch-time/node_modules/express/lib/router/index.js:574:18)
+    at next (/root/server-catch-time/node_modules/express/lib/router/index.js:220:15)
+    at SendStream.error (/root/server-catch-time/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:198:13)
+    at SendStream.error (/root/server-catch-time/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/root/server-catch-time/node_modules/send/index.js:520:10)
+    at serveStatic (/root/server-catch-time/node_modules/serve-static/index.js:125:12)
+    at Layer.handle [as handle_request] (/root/server-catch-time/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/root/server-catch-time/node_modules/express/lib/router/index.js:317:13)
+    at /root/server-catch-time/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/server-catch-time/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/server-catch-time/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/root/server-catch-time/node_modules/serve-static/index.js:121:7)
+URIError: Failed to decode param '/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/winnt/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/root/server-catch-time/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/root/server-catch-time/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/root/server-catch-time/node_modules/express/lib/router/index.js:574:18)
+    at next (/root/server-catch-time/node_modules/express/lib/router/index.js:220:15)
+    at SendStream.error (/root/server-catch-time/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:198:13)
+    at SendStream.error (/root/server-catch-time/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/root/server-catch-time/node_modules/send/index.js:520:10)
+    at serveStatic (/root/server-catch-time/node_modules/serve-static/index.js:125:12)
+    at Layer.handle [as handle_request] (/root/server-catch-time/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/root/server-catch-time/node_modules/express/lib/router/index.js:317:13)
+    at /root/server-catch-time/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/server-catch-time/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/server-catch-time/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/root/server-catch-time/node_modules/serve-static/index.js:121:7)
+URIError: Failed to decode param '/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/etc/passwd'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/root/server-catch-time/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/root/server-catch-time/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/root/server-catch-time/node_modules/express/lib/router/index.js:574:18)
+    at next (/root/server-catch-time/node_modules/express/lib/router/index.js:220:15)
+    at SendStream.error (/root/server-catch-time/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:198:13)
+    at SendStream.error (/root/server-catch-time/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/root/server-catch-time/node_modules/send/index.js:520:10)
+    at serveStatic (/root/server-catch-time/node_modules/serve-static/index.js:125:12)
+    at Layer.handle [as handle_request] (/root/server-catch-time/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/root/server-catch-time/node_modules/express/lib/router/index.js:317:13)
+    at /root/server-catch-time/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/server-catch-time/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/server-catch-time/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/root/server-catch-time/node_modules/serve-static/index.js:121:7)
+URIError: Failed to decode param '/%80../%80../%80../%80../%80../%80../windows/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:574:18)
+    at next (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:220:15)
+    at SendStream.error (/root/wedding-pictures-mern/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:198:13)
+    at SendStream.error (/root/wedding-pictures-mern/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/root/wedding-pictures-mern/node_modules/send/index.js:520:10)
+    at serveStatic (/root/wedding-pictures-mern/node_modules/serve-static/index.js:125:12)
+    at Layer.handle [as handle_request] (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:317:13)
+    at /root/wedding-pictures-mern/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/root/wedding-pictures-mern/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+URIError: Failed to decode param '/%80../%80../%80../%80../%80../%80../winnt/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:574:18)
+    at next (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:220:15)
+    at SendStream.error (/root/wedding-pictures-mern/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:198:13)
+    at SendStream.error (/root/wedding-pictures-mern/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/root/wedding-pictures-mern/node_modules/send/index.js:520:10)
+    at serveStatic (/root/wedding-pictures-mern/node_modules/serve-static/index.js:125:12)
+    at Layer.handle [as handle_request] (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:317:13)
+    at /root/wedding-pictures-mern/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/root/wedding-pictures-mern/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+URIError: Failed to decode param '/%c0.%c0./%c0.%c0./%c0.%c0./%c0.%c0./%c0.%c0./windows/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:574:18)
+    at next (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:220:15)
+    at SendStream.error (/root/wedding-pictures-mern/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:198:13)
+    at SendStream.error (/root/wedding-pictures-mern/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/root/wedding-pictures-mern/node_modules/send/index.js:520:10)
+    at serveStatic (/root/wedding-pictures-mern/node_modules/serve-static/index.js:125:12)
+    at Layer.handle [as handle_request] (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:317:13)
+    at /root/wedding-pictures-mern/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/root/wedding-pictures-mern/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+URIError: Failed to decode param '/%c0.%c0./%c0.%c0./%c0.%c0./%c0.%c0./%c0.%c0./winnt/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:574:18)
+    at next (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:220:15)
+    at SendStream.error (/root/wedding-pictures-mern/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:198:13)
+    at SendStream.error (/root/wedding-pictures-mern/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/root/wedding-pictures-mern/node_modules/send/index.js:520:10)
+    at serveStatic (/root/wedding-pictures-mern/node_modules/serve-static/index.js:125:12)
+    at Layer.handle [as handle_request] (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:317:13)
+    at /root/wedding-pictures-mern/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/root/wedding-pictures-mern/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+URIError: Failed to decode param '/%c0%2e%c0%2e/%c0%2e%c0%2e/%c0%2e%c0%2e/%c0%2e%c0%2e/windows/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:574:18)
+    at next (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:220:15)
+    at SendStream.error (/root/wedding-pictures-mern/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:198:13)
+    at SendStream.error (/root/wedding-pictures-mern/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/root/wedding-pictures-mern/node_modules/send/index.js:520:10)
+    at serveStatic (/root/wedding-pictures-mern/node_modules/serve-static/index.js:125:12)
+    at Layer.handle [as handle_request] (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:317:13)
+    at /root/wedding-pictures-mern/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/root/wedding-pictures-mern/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+URIError: Failed to decode param '/%c0%2e%c0%2e/%c0%2e%c0%2e/%c0%2e%c0%2e/%c0%2e%c0%2e/winnt/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:574:18)
+    at next (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:220:15)
+    at SendStream.error (/root/wedding-pictures-mern/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:198:13)
+    at SendStream.error (/root/wedding-pictures-mern/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/root/wedding-pictures-mern/node_modules/send/index.js:520:10)
+    at serveStatic (/root/wedding-pictures-mern/node_modules/serve-static/index.js:125:12)
+    at Layer.handle [as handle_request] (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:317:13)
+    at /root/wedding-pictures-mern/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/root/wedding-pictures-mern/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+URIError: Failed to decode param '/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/windows/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:574:18)
+    at next (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:220:15)
+    at SendStream.error (/root/wedding-pictures-mern/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:198:13)
+    at SendStream.error (/root/wedding-pictures-mern/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/root/wedding-pictures-mern/node_modules/send/index.js:520:10)
+    at serveStatic (/root/wedding-pictures-mern/node_modules/serve-static/index.js:125:12)
+    at Layer.handle [as handle_request] (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:317:13)
+    at /root/wedding-pictures-mern/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/root/wedding-pictures-mern/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+URIError: Failed to decode param '/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/winnt/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:574:18)
+    at next (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:220:15)
+    at SendStream.error (/root/wedding-pictures-mern/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:198:13)
+    at SendStream.error (/root/wedding-pictures-mern/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/root/wedding-pictures-mern/node_modules/send/index.js:520:10)
+    at serveStatic (/root/wedding-pictures-mern/node_modules/serve-static/index.js:125:12)
+    at Layer.handle [as handle_request] (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:317:13)
+    at /root/wedding-pictures-mern/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/root/wedding-pictures-mern/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+URIError: Failed to decode param '/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/etc/passwd'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:574:18)
+    at next (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:220:15)
+    at SendStream.error (/root/wedding-pictures-mern/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:198:13)
+    at SendStream.error (/root/wedding-pictures-mern/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/root/wedding-pictures-mern/node_modules/send/index.js:520:10)
+    at serveStatic (/root/wedding-pictures-mern/node_modules/serve-static/index.js:125:12)
+    at Layer.handle [as handle_request] (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:317:13)
+    at /root/wedding-pictures-mern/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/root/wedding-pictures-mern/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+URIError: Failed to decode param '/%NETHOOD%/'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/root/server-catch-time/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/root/server-catch-time/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/root/server-catch-time/node_modules/express/lib/router/index.js:574:18)
+    at next (/root/server-catch-time/node_modules/express/lib/router/index.js:220:15)
+    at SendStream.error (/root/server-catch-time/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:198:13)
+    at SendStream.error (/root/server-catch-time/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/root/server-catch-time/node_modules/send/index.js:520:10)
+    at serveStatic (/root/server-catch-time/node_modules/serve-static/index.js:125:12)
+    at Layer.handle [as handle_request] (/root/server-catch-time/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/root/server-catch-time/node_modules/express/lib/router/index.js:317:13)
+    at /root/server-catch-time/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/server-catch-time/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/server-catch-time/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/root/server-catch-time/node_modules/serve-static/index.js:121:7)
+URIError: Failed to decode param '/%NETHOOD%/'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:574:18)
+    at next (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:220:15)
+    at SendStream.error (/root/wedding-pictures-mern/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:198:13)
+    at SendStream.error (/root/wedding-pictures-mern/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/root/wedding-pictures-mern/node_modules/send/index.js:520:10)
+    at serveStatic (/root/wedding-pictures-mern/node_modules/serve-static/index.js:125:12)
+    at Layer.handle [as handle_request] (/root/wedding-pictures-mern/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:317:13)
+    at /root/wedding-pictures-mern/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/wedding-pictures-mern/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/root/wedding-pictures-mern/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+/token/refresh { TokenExpiredError: jwt expired
+    at /root/server-catch-time/node_modules/jsonwebtoken/verify.js:152:21
+    at getSecret (/root/server-catch-time/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/root/server-catch-time/node_modules/jsonwebtoken/verify.js:94:10)
+    at router.post (/root/server-catch-time/routes/auth.routes.js:81:32)
+    at Layer.handle [as handle_request] (/root/server-catch-time/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/server-catch-time/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/server-catch-time/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/server-catch-time/node_modules/express/lib/router/layer.js:95:5)
+    at /root/server-catch-time/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/root/server-catch-time/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/server-catch-time/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/root/server-catch-time/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/root/server-catch-time/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/root/server-catch-time/node_modules/express/lib/router/index.js:317:13)
+    at /root/server-catch-time/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/server-catch-time/node_modules/express/lib/router/index.js:335:12)
+  name: 'TokenExpiredError',
+  message: 'jwt expired',
+  expiredAt: 2021-08-21T11:02:26.000Z }
+/token/refresh { TokenExpiredError: jwt expired
+    at /root/server-catch-time/node_modules/jsonwebtoken/verify.js:152:21
+    at getSecret (/root/server-catch-time/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/root/server-catch-time/node_modules/jsonwebtoken/verify.js:94:10)
+    at router.post (/root/server-catch-time/routes/auth.routes.js:81:32)
+    at Layer.handle [as handle_request] (/root/server-catch-time/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/server-catch-time/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/server-catch-time/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/server-catch-time/node_modules/express/lib/router/layer.js:95:5)
+    at /root/server-catch-time/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/root/server-catch-time/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/server-catch-time/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/root/server-catch-time/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/root/server-catch-time/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/root/server-catch-time/node_modules/express/lib/router/index.js:317:13)
+    at /root/server-catch-time/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/server-catch-time/node_modules/express/lib/router/index.js:335:12)
+  name: 'TokenExpiredError',
+  message: 'jwt expired',
+  expiredAt: 2021-08-22T12:54:05.000Z }

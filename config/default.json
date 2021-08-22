@@ -1,5 +1,5 @@
 {
-  "serverPort": 80,
+  "serverPort": 8182,
   "dbUrl": "mongodb+srv://yura:parolparol1988@claud.mbflm.mongodb.net/claud?retryWrites=true&w=majority",
   "secretKey": "test"
 }
