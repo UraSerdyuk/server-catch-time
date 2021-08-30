@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": " node index.js &  cd .. && cd wedding-pictures-mern && npm run start",
+    "start": " node index.js &  cd .. && cd wedding-pictures-mern && npm run start & cd .. && cd EnglishAlphabetReact && npm start",
     "dev": "nodemon index.js"
   },
   "repository": {
